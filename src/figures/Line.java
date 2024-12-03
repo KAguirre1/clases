@@ -8,7 +8,7 @@ public class Line {
     public Line(int length) {
         this.length = length;
     }
-    /// METHOD THAT DRAWS LINE
+
     public void drawLine() {
         if(length <=1) {
             System.out.print("line length must be > 1");
