@@ -21,15 +21,15 @@ public class Square {
         return length * 4;
     }
 
-    public int calculatearea() {
-        return length * 2;
+    public int calculateArea() {
+        return length * length;
     }
 
     public void PrintSquare() {
         System.out.println("Drawing a Square with length: " + length + "\n");
         drawSquare();
         System.out.println("Perimeter: " + length + " * 4 = " + calculatePerimeter());
-        System.out.println("Area: " + length + " * " + length + calculatearea());
+        System.out.println("Area: " + length + " * " + length + " = " +  calculateArea());
     }
 
     public int calculaPerimeter() {

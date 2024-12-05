@@ -23,7 +23,7 @@ public class Main {
                     line.setLength(lineLength);
                     break;
                 case 2:
-                    System.out.println("Please enter line length: ");
+                    System.out.println("Please enter Square length: ");
                     int SquareLength = scanner.nextInt();
                     square.setLength(SquareLength);
                     break;
